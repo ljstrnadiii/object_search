@@ -2,7 +2,7 @@
 FROM tensorflow/tensorflow:1.14.0-gpu-py3
 
 RUN apt-get update
-RUN apt-get -y install cmake 
+RUN apt-get -y install cmake wget 
 RUN apt-get install -y libsm6 libxext6 libxrender-dev
 
 # expose ports for jupyter notebooks and tensorboard

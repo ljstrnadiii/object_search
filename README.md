@@ -17,7 +17,7 @@ You can use Docker but building and running the image as follows:
 
 ```docker build -t object_search -f Dockerfile .```
 
-```docker run -it object_search```
+```docker run --gpus all -v /home/<usr>/object_search:/home/object_search -it object_search bash run_search.sh```
 
 If you need gpu usage, add the `-gpus all` flag to docker run if you have nvidia-docker installed.
 
