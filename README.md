@@ -11,8 +11,9 @@ TODO:
 ## Running the Application with Docker
 You can use Docker but building and running the image as follows:
 
-`docker build -t object_search -f Dockerfile .`
-`docker run -it object_search`
+```docker build -t object_search -f Dockerfile .```
+
+```docker run -it object_search```
 
 If you need gpu usage, add the `-gpus all` flag to docker run if you have nvidia-docker installed.
 
