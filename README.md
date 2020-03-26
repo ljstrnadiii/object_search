@@ -2,7 +2,11 @@
 This is a simple project to find and crop instances of particular objects. 
 
 The basic idea:
-dataset of images -> object detector -> crop -> calculate embedding -> store
+1. Download an object detector from [Tensorflow's Model Zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md)
+2. Download the [mscoco dataset](http://cocodataset.org/#home)
+3. Find all objects in the entire dataset
+4. Save to object specific dirs
+
 
 TODO:
 - calculate embeddings with MobileNet V2
