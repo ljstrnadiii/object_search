@@ -73,9 +73,9 @@ def main(_argv):
     pbar.close()
 
 if __name__ == '__main__':
-	try:
+    try:
         app.run(main)
-	except SystemExit:
+    except SystemExit:
         pass
 
 
