@@ -6,9 +6,9 @@ import uuid
 import cv2
 import numpy as np
 
-flags.DEFINE_integer('image_res', 250, 'res of image for object detector.')
-flags.DEFINE_string('output_dir', 'data/discovered_objects/',
-                    'path to store results')
+#flags.DEFINE_integer('image_res', 250, 'res of image for object detector.')
+#flags.DEFINE_string('output_dir', 'data/discovered_objects/',
+#                    'path to store results')
 
 def preprocess(path):
     """Prepreocess data for inference; used with the data generator.

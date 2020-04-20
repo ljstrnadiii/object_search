@@ -33,6 +33,10 @@ flags.DEFINE_integer('n_parallel_pipeline', 8, 'number of processes for '
                      'background data generator.')
 flags.DEFINE_integer('n_chunks', 4, 'number of tasks per process for '
                      'background data generator')
+flags.DEFINE_integer('image_res', 250, 'res of image for object detector.')
+flags.DEFINE_string('output_dir', 'data/discovered_objects/',
+                    'path to store results')
+
 
 def main(_argv):
     # get the dataset images
